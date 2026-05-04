@@ -12,7 +12,7 @@ pipeline {
 
             steps {
 
-                sh 'echo Hello I am active'
+                echo 'Hello I am active'
 
             }
 
@@ -42,7 +42,7 @@ pipeline {
 
             steps {
 
-                sh 'echo jenkins execution completed'
+                echo 'jenkins execution completed'
 
             }
 
