@@ -4,6 +4,7 @@ class Demo {
 
         System.out.println("Demo project is running successfully.........");
 
+        System.out.println ("Testing Jenkins working status!!!!!");
     }
 
 }
