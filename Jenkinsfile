@@ -8,6 +8,16 @@ pipeline {
 
     stages {
 
+        stage("test") {
+
+            steps {
+
+                sh 'echo Hello I am active'
+
+            }
+
+        }
+
         stage('compile') {
 
             steps {
